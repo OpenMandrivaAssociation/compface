@@ -14,7 +14,7 @@ header.
 
 %package devel
 Summary:	Image from/to X-Face conversion libraries
-Group:		Development/Libraries
+Group:		Development/C++
 
 %description devel
 Compface provides a library to convert from/to X-Face format, a 48x48
