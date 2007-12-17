@@ -5,7 +5,6 @@ Release:	%mkrel 1
 License:	MIT
 Group:		Graphics
 Source0:	http://freshmeat.net/redir/compface/1439/url_tgz/%{name}-%{version}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Compface provides utilities to convert from/to X-Face format, a 48x48
