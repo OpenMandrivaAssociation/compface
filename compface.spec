@@ -1,7 +1,7 @@
 Summary:	Image from/to X-Face conversion utilities
 Name:		compface
 Version:	1.5.2
-Release:	%mkrel 1
+Release:	%mkrel 3
 License:	MIT
 Group:		Graphics
 Source0:	http://freshmeat.net/redir/compface/1439/url_tgz/%{name}-%{version}.tar.bz2
