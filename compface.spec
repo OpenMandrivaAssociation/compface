@@ -5,13 +5,12 @@
 Summary:	Image from/to X-Face conversion utilities
 Name:		compface
 Version:	1.5.2
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	MIT
 Group:		Graphics
 Source0:	http://freshmeat.net/redir/compface/1439/url_tgz/%{name}-%{version}.tar.bz2
-# originally from http://ftp.debian.org/debian/pool/main/libc/libcompface/libcompface_1.5.2-4.diff.gz
-Patch0:         libcompface_1.5.2-4.diff
-Patch1:         compface-1.5.2-stack-smashing.patch
+# originally from http://ftp.debian.org/debian/pool/main/libc/libcompface/libcompface_1.5.2-5.diff.gz
+Patch0:         libcompface_1.5.2-5.diff
 Patch2:         compface-1.5.2-build.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -44,7 +43,6 @@ This package provides the development files for %{name}.
 
 %setup -q
 %patch0 -p1
-%patch1 -p1 -b .stack-smashing
 %patch2 -p0
 
 %build
