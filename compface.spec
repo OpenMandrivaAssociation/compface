@@ -84,3 +84,31 @@ rm -rf %{buildroot}
 %{_includedir}/compface.h
 %{_mandir}/man3/compface.3*
 %{_mandir}/man3/uncompface.3*
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.5.2-6mdv2011.0
++ Revision: 617408
+- the mass rebuild of 2010.0 packages
+
+* Wed Jul 01 2009 Oden Eriksson <oeriksson@mandriva.com> 1.5.2-5mdv2010.0
++ Revision: 391250
+- new debian patch
+
+* Mon Jun 29 2009 Oden Eriksson <oeriksson@mandriva.com> 1.5.2-4mdv2010.0
++ Revision: 390680
+- sync with fedora, adapt for Mandriva
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.5.2-3mdv2009.0
++ Revision: 243619
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Fri Oct 19 2007 Tomasz Pawel Gajc <tpg@mandriva.org> 1.5.2-1mdv2008.1
++ Revision: 100357
+- import compface
+
+
