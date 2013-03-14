@@ -2,8 +2,8 @@ o Build shared library, link tools against it
 o Make it possible to prevent stripping
 o Add DESTDIR support
 
---- Makefile.in~	2005-10-04 15:59:49.000000000 +0300
-+++ Makefile.in	2006-08-02 22:23:07.000000000 +0300
+--- ./Makefile.in~	2005-10-04 15:59:49.000000000 +0300
++++ ./Makefile.in	2006-08-02 22:23:07.000000000 +0300
 @@ -15,6 +15,7 @@
  INSTALL_PROGRAM = @INSTALL_PROGRAM@
  INSTALL_DATA    = @INSTALL_DATA@
