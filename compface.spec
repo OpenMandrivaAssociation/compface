@@ -5,7 +5,7 @@
 Summary:	Image from/to X-Face conversion utilities
 Name:		compface
 Version:	1.5.2
-Release:	13
+Release:	14
 License:	MIT
 Group:		Graphics
 Url:		http://freecode.com/projects/compface
