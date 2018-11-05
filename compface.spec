@@ -36,17 +36,16 @@ Provides:	%{name}-devel = %{version}-%{release}
 This package provides the development files for %{name}.
 
 %prep
-%setup -q
-%apply_patches
+%autosetup -p1
 
 %build
 export CFLAGS="%{optflags} -fPIC"
-%configure2_5x
+%configure
 
-%make
+%make_build
 
 %install
-%makeinstall_std STRIP=/bin/true
+%make_install STRIP=/bin/true
 
 %files
 %doc README ChangeLog
