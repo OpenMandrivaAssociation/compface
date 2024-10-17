@@ -8,7 +8,7 @@ Version:	1.5.2
 Release:	22
 License:	MIT
 Group:		Graphics
-Url:		http://freecode.com/projects/compface
+Url:		https://freecode.com/projects/compface
 Source0:	http://ftp.xemacs.org/pub/xemacs/aux/%{name}-%{version}.tar.gz
 # originally from http://ftp.debian.org/debian/pool/main/libc/libcompface/libcompface_1.5.2-5.diff.gz
 Patch0:         libcompface_1.5.2-5.diff
